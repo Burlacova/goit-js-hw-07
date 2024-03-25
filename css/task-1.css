@@ -1,0 +1,40 @@
+ul {
+    margin: 0;
+    padding: 0;
+    padding-left: 0;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 16px;
+    
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+    
+    list-style-type: none;
+    color: #2E2F42 ;
+    
+    
+}
+.item-list {
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-flex;
+    flex-direction: column;
+    
+    gap: 8px;
+    
+}
+.item-list__name {
+    padding-left: 10px;
+    padding-top: 5px;
+    width: 360px;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 4px;
+
+}
